@@ -35,7 +35,7 @@ function AddTransactionForm({ transactions, setTransactions }) {
     <div className="ui segment">
       <form className="ui form" onSubmit={handleSubmit}>
         <div className="inline fields">
-          <input type="date" name="date" />
+          <input type="date" name="date" onChange={handleOnChange}/>
           <input type="text" name="description" placeholder="Description" onChange={handleOnChange} />
           <input type="text" name="category" placeholder="Category" onChange={handleOnChange} />
           <input type="number" name="amount" placeholder="Amount" step="0.01" onChange={handleOnChange}/>

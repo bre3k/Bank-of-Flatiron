@@ -19,7 +19,7 @@ function handleDeleteTransaction() {
       <td>{description}</td>
       <td>{category}</td>
       <td>{amount}</td>
-      <td><button className="ui button" onClick={handleDeleteTransactions}>Delete this transaction</button></td>
+      {/* <td><button className="ui button" onClick={handleDeleteTransactions}>Delete this transaction</button></td> */}
     </tr>
   );
 }
